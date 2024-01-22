@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multidimension Arrays</title>
+  </head>
+  <body>
+    <script>
+      var list = [
+        ["Ammad", 22, "Male", "CSS"],
+        ["Saba", 18, "Female", "Inter"],
+        ["Ali", 15, "Male", "Matric"],
+        ["Munir", 17, "Male", "Inter"],
+      ];
+
+      document.write("<table border='1px' cellspacing='0'>");
+      for (a = 0; a < list.length; a++) {
+        document.write("<tr>");
+        for (b = 0; b < list[a].length; b++) {
+          document.write("<td>" + list[a][b] + " " + "</td>");
+        }
+        document.write("<r>");
+      }
+      document.write("</table>");
+    </script>
+  </body>
+</html>
